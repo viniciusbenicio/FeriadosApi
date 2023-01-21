@@ -11,23 +11,26 @@ import { IFeriado } from '../../Interface/IFeriado';
 export class AppComponent implements OnInit {
   title = 'Feriado Nacionais';
 
-  userFeriado: IFeriado[] = new Array<IFeriado>();
+  feriadoNacionais: IFeriado[] = new Array<IFeriado>();
+
+
 
   ngOnInit() {
     this.obterTodosFeriados();
   }
 
-  constructor(private FeriadoService: FeriadoService) {}
+  constructor(private FeriadoService: FeriadoService) {
+  }
   obterDadosApi() {
     this.FeriadoService.obterDadosApi().subscribe(result => {
-      this.userFeriado = result;
+      this.feriadoNacionais = result;
     })
+    window.location.reload();
   }
 
   obterTodosFeriados() {
     this.FeriadoService.obterTodosFeriados().subscribe(result => {
-      this.userFeriado = result;
-      debugger;
+      this.feriadoNacionais = result;
     })
 
   }

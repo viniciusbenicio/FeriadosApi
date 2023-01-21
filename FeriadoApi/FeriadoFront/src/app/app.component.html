@@ -3,7 +3,7 @@
 <div>
   <h5>Feriados</h5>
 </div>
-<div *ngIf="userFeriado.length === 0">
+<div *ngIf="feriadoNacionais.length === 0">
   <button (click)="obterDadosApi()">Recarregar Dados da Api</button>
   <p>Ao clicar para inserir os dados novamentes recarregue a pagina.</p>
 </div>
@@ -22,7 +22,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let item of userFeriado">
+        <tr *ngFor="let item of feriadoNacionais">
           <td>{{item.id}}</td>
           <td>{{item.date}}</td>
           <td>{{item.title}}</td>
