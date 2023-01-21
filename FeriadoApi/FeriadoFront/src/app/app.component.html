@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<div>
+  <img src="./assets/img/logo.jpeg">
+  <h5>Feriados</h5>
+</div>
+<div *ngIf="userFeriado.length === 0">
+  <button (click)="obterDadosApi()">Recarregar Dados da Api</button>
+  <p>Ao clicar para inserir os dados novamentes recarregue a pagina.</p>
+</div>
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Data</th>
+          <th>Titulo</th>
+          <th>Descrição</th>
+          <th>Legislação</th>
+          <th>Tipo</th>
+          <th>Hora de Inicio</th>
+          <th>Hora de Fim</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of userFeriado">
+          <td>{{item.id}}</td>
+          <td>{{item.date}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.description}} </td>
+          <td>{{item.legislation}}</td>
+          <td>{{item.type}}</td>
+          <td>{{item.startTime}}</td>
+          <td>{{item.endTime}}</td>
+          <td class="material-symbols-outlined"><a  (click)="atualizar(item)">edit</a></td>
+          <td class="material-symbols-outlined"><a  (click)="remover(item.id)">delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+
