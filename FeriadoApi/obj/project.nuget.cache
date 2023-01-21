@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YHMGeFs0r0Y878ipXTUPR/LUdB8TtRfuuORpLLOR45Eop5JWt6JBq1LOS2YnIlR26gGwwmr8r7GIKj/0rH/4jA==",
+  "dgSpecHash": "5kWT8HCDFgepHtodmVxVF5x6yQQG7cUeOSH4OZEZJhVrMEIeukK44cJZQBWTxYgQ0g5I1ovGKf5pE1hZyq/5Gw==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\Teste\\FeriadoApi\\FeriadoApi\\FeriadoApi.csproj",
+  "projectFilePath": "D:\\FeriadosApi\\FeriadoApi\\FeriadoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

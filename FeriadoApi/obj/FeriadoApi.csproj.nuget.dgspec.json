@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\Teste\\FeriadoApi\\FeriadoApi\\FeriadoApi.csproj": {}
+    "D:\\FeriadosApi\\FeriadoApi\\FeriadoApi.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\Teste\\FeriadoApi\\FeriadoApi\\FeriadoApi.csproj": {
+    "D:\\FeriadosApi\\FeriadoApi\\FeriadoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\Teste\\FeriadoApi\\FeriadoApi\\FeriadoApi.csproj",
+        "projectUniqueName": "D:\\FeriadosApi\\FeriadoApi\\FeriadoApi.csproj",
         "projectName": "FeriadoApi",
-        "projectPath": "D:\\Dev\\Teste\\FeriadoApi\\FeriadoApi\\FeriadoApi.csproj",
+        "projectPath": "D:\\FeriadosApi\\FeriadoApi\\FeriadoApi.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\Teste\\FeriadoApi\\FeriadoApi\\obj\\",
+        "outputPath": "D:\\FeriadosApi\\FeriadoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
