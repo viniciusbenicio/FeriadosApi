@@ -60,3 +60,4 @@ em seguida digite NPM START para execução do projeto que irá abrir na URL : h
 # Tecnologias e plugins utilizados
 
 #### C# | .NET | AngularTS | SQL SERVER
+#### EntityFrameWork | AutoMapper | NewtonJSon
